@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --main-background : #D5E1EF;
+    --main-blue : #3685FF;
+    --main-textColor : #1F314F;
+    --main-white : #fff
+    
+}
+
+body{
+    font-family: Barlow;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background-color: var(--main-background);
+}
+h2{
+    color: var(--main-textColor);
+}
+p{
+    color: var(--main-textColor);
+    margin: 0 10px;
+}
+img{
+    width: 100%;
+}
+.qr-card{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+    background-color: var(--main-white);
+    padding: 10px;
+}
+.corner-smooth{
+    border-radius: 10px
+}
+.title{
+    font-size: 1.2rem;
+}
+.description{
+    font-size: .8rem;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 10px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
