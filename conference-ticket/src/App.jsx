@@ -1,6 +1,10 @@
 import { useState } from 'react'
 import './App.css'
-import patternTicket from "./assets/images/pattern-ticket.svg"
+import logoMark from "./assets/images/logo-full.svg"
+import lineBottom from "./assets/images/pattern-squiggly-line-bottom.svg"
+import lineTop from "./assets/images/pattern-squiggly-line-top.svg"
+import circle from "./assets/images/pattern-circle.svg"
+import lines from "./assets/images/pattern-lines.svg"
 
 function App() {
   const [formData, setFormData] = useState({})
@@ -52,8 +56,16 @@ function App() {
 
   return (
     <>
-      <h1>hello</h1>
-      <img src={patternTicket} alt="ticket-pattern" width={200} />
+      <img className="lineBottom absolute" src={lineBottom} alt={lineBottom} />
+      <img className="lineTop absolute" src={lineTop} alt={lineTop} />
+      <img className="lines absolute" src={lines} alt={lines} />
+      <img className="circle absolute" src={circle} alt={circle} />
+      <img className="circle2 absolute" src={circle} alt={circle} />
+      <header>
+        <img src={logoMark} alt="ticket pattern" />
+        <h1>Your Journey to Coding Conf 2025 Starts Here!</h1>
+        <p>Secure your spot at next year's biggest coding conference</p>
+      </header>
       <main>
         {showForm === true
           ? <FormComponent />
