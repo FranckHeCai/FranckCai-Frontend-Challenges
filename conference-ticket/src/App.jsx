@@ -7,26 +7,27 @@ import lines from "./assets/images/pattern-lines.svg"
 import { FormComponent } from "./components/FormComponent"
 import { TicketComponent } from "./components/TicketComponent"
 import { Header } from './components/Header'
-import { FormProvider, useFormContext } from './context/FormContext.jsx'
+import { useFormContext } from './context/FormContext.jsx'
 
 function App() {
   const { showForm } = useFormContext()
 
   return (
     <>
-      <img className="lineBottom absolute" src={lineBottom} alt={lineBottom} />
-      <img className="lineTop absolute" src={lineTop} alt={lineTop} />
-      <img className="lines absolute" src={lines} alt={lines} />
-      <img className="circle absolute" src={circle} alt={circle} />
-      <img className="circle2 absolute" src={circle} alt={circle} />
 
-      <Header />
       <main>
+        <Header />
         {showForm === true
           ? <FormComponent />
           : <TicketComponent />
         }
       </main>
+
+      <img className="lineBottom absolute" src={lineBottom} alt={lineBottom} />
+      <img className="lineTop absolute" src={lineTop} alt={lineTop} />
+      <img className="lines absolute" src={lines} alt={lines} />
+      <img className="circle absolute" src={circle} alt={circle} />
+      <img className="circle2 absolute" src={circle} alt={circle} />
     </>
   )
 }

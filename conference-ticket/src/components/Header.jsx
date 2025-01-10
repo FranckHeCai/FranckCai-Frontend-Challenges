@@ -1,4 +1,5 @@
 import logoMark from "../assets/images/logo-full.svg"
+import "./Header.css"
 
 export function Header() {
     return(
