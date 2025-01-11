@@ -1,25 +1,93 @@
 form{
     display: flex;
     flex-direction: column;
-    width: 70%;
     justify-content: center;
-    
+    width: 500px;
 }
 
 form input{
-    background-color: transparent;
-    border: 1px solid var(--Neutral0);
-    border-radius: 5px;
-    height: 55px;
+    background-color: rgba(75, 72, 106, .2);
+    border: 1px solid var(--Neutral500);
+    border-radius: 10px;
+    height: 50px;
     margin-bottom: 20px;
+    padding-left: 15px;
+    backdrop-filter: blur(5px);
+}
+
+form input::placeholder{
+    font-family: Inconsolata;
+    color: var(--Neutral300);
+    font-size: 1rem;
 }
 
 form label{
     margin-bottom: 5px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
-#file-input{
-    height: 200px;
+.input-area{
+    background-color: rgba(75, 72, 106, .2);
+    height: 150px;
+    border: 2px dashed var(--Neutral500);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.input-area p{
+    margin-bottom: 0;
+}
+
+.input-icon{
+    background-color: var(--Neutral700);
+    width: 50px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.preview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.preview-image{
+    width: 80px;
+    border-radius: 10px;
+    border: 2px solid var(--Neutral300);
+}
+
+.preview button{
+    font-size: .8rem;
+}
+
+.info{
+    display: flex;
+    gap: 10px;
+    font-size: 0.7rem;
+    margin-bottom: 20px;
+}
+
+form button{
+    background-color: var(--main-orange);
+    color: var(--Neutral900);
+    font-weight: 900;
+}
+
+.drag-active{
     border: 2px dashed var(--Neutral0);
 }
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+

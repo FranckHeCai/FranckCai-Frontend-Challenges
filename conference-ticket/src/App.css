@@ -11,8 +11,9 @@
   --Neutral0: hsl(0, 0%, 100%);
   --Neutral300: hsl(252, 6%, 83%);
   --Neutral500: hsl(245, 15%, 58%);
-  --Neutral700: #4b486a;
+  --Neutral700: rgb(75, 72, 106);
   --Neutral900: #0c082b;
+  --main-orange: #f67464;
 }
 *{
   box-sizing: border-box
