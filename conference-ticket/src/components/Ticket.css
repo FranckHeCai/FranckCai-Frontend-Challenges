@@ -1,0 +1,78 @@
+.ticket {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url(../assets/images/pattern-ticket.svg) no-repeat center center;
+    background-size: contain; /* Ensure the background image covers the entire div */ /* Adjust the height as needed */
+    width: 500px;
+    height: 240px;
+    padding: 25px 20px;
+    position: relative;
+}
+
+.logo * {
+    margin: 0;
+}
+.logo p{
+    font-size: 1rem;
+    color: var(--Neutral500);
+    margin-left: 50px;
+}
+.logo img{
+    height: 35px;
+}
+
+.ticket-info h2, .ticket-info p{
+    margin: 10px 0;
+}
+
+.ticket-info{
+    display: flex;
+    gap: 15px;
+}
+.ticket-info img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.info-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.info-text h2, .info-text p{
+    margin: 0;
+}
+.github{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.github img{
+    width: 20px;
+    height: 20px;
+}
+
+.ticket-number{
+    position: absolute;
+    right: 5px;
+    top: 105px;
+    transform: rotate(90deg);
+    color: var(--Neutral500);
+    font-size: 1.5rem;
+}
+
+button:hover{
+    background-color: var(--main-orange);
+}
+button{
+    background-color: var(--main-orange);
+    color: var(--Neutral900);
+    font-weight: 900;
+    padding: 1rem 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}

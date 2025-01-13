@@ -1,5 +1,4 @@
 import './App.css'
-import logoMark from "./assets/images/logo-full.svg"
 import lineBottom from "./assets/images/pattern-squiggly-line-bottom.svg"
 import lineTop from "./assets/images/pattern-squiggly-line-top.svg"
 import circle from "./assets/images/pattern-circle.svg"

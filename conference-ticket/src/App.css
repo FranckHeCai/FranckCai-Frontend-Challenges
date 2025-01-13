@@ -14,9 +14,24 @@
   --Neutral700: rgb(75, 72, 106);
   --Neutral900: #0c082b;
   --main-orange: #f67464;
+  --main-black: #212121;
+
+  color-scheme: light dark;
+
+  button{
+    background-color: var(--main-orange);
+    color: var(--Neutral900);
+    font-weight: 900;
+    padding: 1rem 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+  }
 }
 *{
-  box-sizing: border-box
+  box-sizing: border-box;
+  margin: 0;
+  color: var(--Neutral0);
 }
 
 #root {
@@ -24,8 +39,6 @@
   background-color: var(--Neutral900);
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
   width: 100%;
 }
@@ -33,11 +46,11 @@
 main{
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 100px;
   justify-content: center;
   align-items: center;
   z-index: 100;
-  padding: 20px;
+  padding: 30px 20px;
 }
 
 .absolute{

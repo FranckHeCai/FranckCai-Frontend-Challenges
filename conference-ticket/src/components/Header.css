@@ -4,21 +4,32 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 80%;
+    max-width: 600px ;
 }
 header *{
     margin: 0;
 }
 header h1 {
     font-weight: bold;
-    font-size: 2.8rem;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
 }
 header p{
-    font-size: 1.5rem;
+    font-size: 1rem;
+    color: var(--Neutral300);
 }
 header img{
-    margin-bottom: 70px;
+    margin-bottom: 80px;
 }
-header p, header h1{
-    margin-bottom: 15px;
+.ticket-name{
+    background: -webkit-linear-gradient(0deg, var(--main-orange), var(--Neutral0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.result-paragraph{
+    max-width: 300px;
+    font-size: 1.1rem;
+}
+.ticket-email{
+    color: var(--main-orange);
 }
