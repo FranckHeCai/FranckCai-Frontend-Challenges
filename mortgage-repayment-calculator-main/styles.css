@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Jakarta;
+  src: url(./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+:root{
+  --white: hsl(0, 0%, 100%);
+  --slate-100: hsl(202, 86%, 94%);
+  --slate-300: hsl(203, 41%, 72%);
+  --slate-500: hsl(200, 26%, 54%);
+  --sllate--700: hsl(200, 24%, 40%);
+  --slate-900: hsl(202, 55%, 16%);
+}
+body{
+  font-family: Jakarta;
+}
