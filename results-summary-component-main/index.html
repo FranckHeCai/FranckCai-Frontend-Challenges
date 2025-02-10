@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      font-family: 'Hanken Grotesk', sans-serif;
+    }
+    *{
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body class="m-0">
+  <main class="w-full h-screen flex flex-col justify-center items-center bg-[#ebf1ff]">
+    <div class="flex w-2xl rounded-3xl bg-neutral-200 overflow-hidden">
+      <div class="text-center p-8 gap-6 flex-1 flex flex-col items-center bg-linear-to-b from-[#7857ff] to-[#2e2be9]">
+        <h2 class="text-xl text-[#c8c7ff]">Your Result</h2>
+        <div class="flex flex-col justify-center items-center w-45 h-45 circle rounded-full bg-linear-to-b from-[#4e21ca] to-[#2421ca00]">
+          <div>
+            <p class="text-6xl text-white">76</p>
+            <p class="text-[#c8c7ff]">of 100</p>
+          </div>
+        </div>
+        <h1 class="text-white text-2xl font-bold">Great</h1>
+        <p class="text-[#c8c7ff]/70">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="flex-1 flex flex-col justify-between bg-white p-8">
+        <h2 class="text-xl text-[#303b5a] font-bold">Summary</h2>
+        <div class="flex flex-col gap-3">
+          <div class="p-3 rounded-lg flex justify-between bg-[#ff5757]/15">
+            <div class="flex gap-2">
+              <img src="./assets/images/icon-reaction.svg" alt="">
+              <h3 class="text-[#ff5757]" >Reaction</h3>
+            </div>
+            <p class="text-gray-500"><span class="font-bold text-[#303b5a]">80</span> / 100</p>
+          </div>
+          <div class="p-3 rounded-lg flex justify-between bg-[#ffb01f]/15">
+            <div class="flex gap-2">
+              <img src="./assets/images/icon-memory.svg" alt="">
+              <h3 class="text-[#ffb01f]">Memory</h3>
+            </div>
+            <p class="text-gray-500"><span class="font-bold text-[#303b5a]">92</span> / 100</p>
+          </div>
+          <div class="p-3 rounded-lg flex justify-between bg-[#00bd91]/15">
+            <div class="flex gap-2">
+              <img src="./assets/images/icon-verbal.svg" alt="">
+              <h3 class="text-[#00bd91]">Verbal</h3>
+            </div>
+            <p class="text-gray-500"><span class="font-bold text-[#303b5a]">61</span> / 100</p>
+          </div>
+          <div class="p-3 rounded-lg flex justify-between bg-[#1125d4]/15">
+            <div class="flex gap-2">
+              <img src="./assets/images/icon-visual.svg" alt="">
+              <h3>Visual</h3>
+            </div>
+            <p class="text-gray-500"><span class="font-bold text-[#303b5a]">72</span> / 100</p>
+          </div>
+        </div>
+        <button class="py-3 bg-[#303b5a] text-white w-full rounded-full">Continue</button>
+      </div>
+    </div>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
