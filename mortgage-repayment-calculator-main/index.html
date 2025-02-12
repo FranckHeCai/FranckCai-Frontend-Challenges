@@ -12,21 +12,64 @@
    <link rel="stylesheet" href="styles.css">
 </head>
 <body class="m-0">
-  <main class="flex w-full md:h-screen bg-[var(--slate-100)]">
+  <main class="flex justify-center items-center w-full md:h-screen bg-[var(--slate-100)]">
+    <div class="lg:w-2xl flex">
+      <div class="left flex-1 flex flex-col gap-5 bg-white p-6">
+        <h1 class="text-xl font-bold">Mortgage Calculator</h1>
+        <form class="flex flex-col gap-5">
+          <div class="flex flex-col gap-2">
+            <label class="block text-base font-medium text-[var(--slate-900)]/50" for="amount">Mortgage Amount
+            </label>
+            <input class="w-full transition duration-200 outline-2 outline-[var(--slate-900)] rounded py-1 px-3 focus:outline-[var(--lime)]" id="amount" type="text">
+          </div>
+          <div class="row flex flex-col sm:flex-row gap-5">
+            <div class="flex flex-col gap-2">
+              <label class="text-sm font-medium text-[var(--slate-900)]/50">Mortgage Term
+              </label>
+              <input class="transition duration-200 outline-2 outline-[var(--slate-900)] rounded py-1 px-3 focus:outline-[var(--lime)]" id="term" type="text">
+            </div>
+            <div class="flex flex-col gap-2">
+              <label class="text-sm font-medium text-[var(--slate-900)]/50">Interest Rate
+              </label>
+              <input class="transition duration-200 outline-2 outline-[var(--slate-900)] rounded py-1 px-3 focus:outline-[var(--lime)]" id="interest" type="text">
+            </div>
+          </div>
+          <div class="flex flex-col gap-1">
+            <p class="text-sm font-medium text-[var(--slate-900)]/50" for="type">Mortgage Type<p/>
+            <div class="flex gap-3 py-1 px-3 outline-2 outline-[var(--slate-900)] rounded">
+              <input id="repayment" name="mortgageType" type="radio">
+              <label for="repayment">Repayment</label>
+            </div>
+            
+            <label class="has-checked:bg-[var(--lime)]/30 has-checked:border-2 has-checked:border-[var(--lime)] py-1 px-3 border-2 rounded mt-2" for="part">
+              <input class="checked:border-indigo-500" id="part" name="mortgageType" type="radio">
+              Part-Ways
+            </label>
+            <div class="flex gap-3 py-1 px-3 outline-2 outline-[var(--slate-900)] rounded mt-2">
+              <input id="onlyInterest" name="mortgageType" type="radio">
+              <label for="onlyInterest">Interest Only</label>
+            </div>
+          </div>
+        </form>
 
+        <button class="text-sm font-medium py-2 px-5 rounded-full bg-[var(--lime)]" >Calculate Repayments</button>
+      </div>
+      <div class="flex-1 right bg-[var(--slate-900)]">
+
+      </div>
+    </div>
   </main>
-  Mortgage Calculator
+  
   Clear All
 
-  Mortgage Amount
+  
 
-  Mortgage Term
+  
 
-  Interest Rate
+  
 
-  Mortgage Type
-  Repayment
-  Interest Only
+  
+  
 
   Calculate Repayments
 

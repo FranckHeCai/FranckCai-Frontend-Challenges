@@ -7,8 +7,12 @@
   --slate-100: hsl(202, 86%, 94%);
   --slate-300: hsl(203, 41%, 72%);
   --slate-500: hsl(200, 26%, 54%);
-  --sllate--700: hsl(200, 24%, 40%);
+  --slate-700: hsl(200, 24%, 40%);
   --slate-900: hsl(202, 55%, 16%);
+  --lime: hsl(61, 70%, 52%)
+}
+*{
+  box-sizing: border-box;
 }
 body{
   font-family: Jakarta;
