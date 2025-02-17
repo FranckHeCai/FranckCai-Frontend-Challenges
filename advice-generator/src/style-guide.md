@@ -13,24 +13,24 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Red: hsl(4, 100%, 67%)
+- Light Cyan: hsl(193, 38%, 86%)
+- Neon Green: hsl(150, 100%, 66%)
 
 ### Neutral
 
-- Blue 800: hsl(234, 29%, 20%)
-- Blue 700: hsl(235, 18%, 26%)
-- Grey: hsl(0, 0%,58%)
-- White: hsl(0, 0%, 100%)
+- Grayish Blue: hsl(217, 19%, 38%)
+- Dark Grayish Blue: hsl(217, 19%, 24%)
+- Dark Blue: hsl(218, 23%, 16%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size (paragraph): 16px
+- Font size (quote): 28px
 
 ### Font
 
-- Family: [Roboto](https://fonts.google.com/specimen/Roboto)
-- Weights: 400, 700
+- Family: [Manrope](https://fonts.google.com/specimen/Manrope)
+- Weights: 800
 
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
