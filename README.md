@@ -63,4 +63,5 @@ Feedbacks are welcome! If you have any suggestions or improvements, feel free to
 If you have any questions or want to connect, feel free to reach out:
 
 [GitHub: FranckHeCai](https://github.com/FranckHeCai)
-mailto: franck.caiyin@gmail.com
+
+E-mail: franck.caiyin@gmail.com
