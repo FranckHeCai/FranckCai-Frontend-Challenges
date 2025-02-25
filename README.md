@@ -1,7 +1,5 @@
 # Frontend Challenges
 
-![Frontend Challenges](https://via.placeholder.com/800x200.png?text=Frontend+Challenges)
-
 Welcome to my **Frontend Challenges** repository! This is where I practice and showcase various frontend designs. Each project helps me improve my skills in HTML, CSS, and JavaScript.
 
 ## 🚀 Projects
