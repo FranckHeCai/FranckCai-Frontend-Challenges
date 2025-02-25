@@ -14,3 +14,10 @@ body{
   margin: 0;
   background-color: var(--rose100);
 }
+
+.button{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
