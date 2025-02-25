@@ -7,24 +7,20 @@ Welcome to my **Frontend Challenges** repository! This is where I practice and s
 ## 🚀 Projects
 
 ### 1. Product List with Cart
-![Product List](/thumbnails/product-list-thumbnail.png)
 - **Description**: A product list with a shopping cart functionality.
 - **Technologies**: React, Tailwind CSS
-- **Live Demo**: [View Demo](https://your-live-demo-link.com)
 - **Code**: [View Code](./product-list)
 
 ### 2. Advice Generator
 ![Advice Generator](https://via.placeholder.com/400x200.png?text=Advice+Generator)
 - **Description**: An app that generates random advice using an API.
 - **Technologies**: React, Tailwind CSS
-- **Live Demo**: [View Demo](https://your-live-demo-link.com)
 - **Code**: [View Code](./advice-generator)
 
 ### 3. Newsletter Signup
 ![Newsletter Signup](https://via.placeholder.com/400x200.png?text=Newsletter+Signup)
 - **Description**: A newsletter signup form with responsive design.
 - **Technologies**: React, Tailwind CSS
-- **Live Demo**: [View Demo](https://your-live-demo-link.com)
 - **Code**: [View Code](./newsletter-react)
 
 ## 📚 Learning Goals
